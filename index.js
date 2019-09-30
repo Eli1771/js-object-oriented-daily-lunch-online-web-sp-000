@@ -67,7 +67,9 @@ class Customer {
   }
   
   totalSpent() {
-    
+    const reducePrice = function(agg, el, i, arr) {
+      
+    }
   }
 }
 
