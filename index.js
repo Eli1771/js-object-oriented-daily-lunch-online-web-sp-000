@@ -70,6 +70,7 @@ class Customer {
     const reducePrice = function(agg, el, i, arr) {
       return agg + el.price;
     }
+    return this.meals().reduce(reducePrice, 0);
   }
 }
 
