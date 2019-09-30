@@ -98,7 +98,7 @@ class Meal {
   }
   
   static byPrice() {
-    store.meals.sort(
+    return store.meals.sort(
       function(a, b) {
         return b.price - a.price;
       }.bind(this)
