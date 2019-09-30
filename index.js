@@ -97,7 +97,7 @@ class Meal {
     return results.unique();
   }
   
-  byPrice() {
+  static byPrice() {
     store.meals.sort(
       function(a, b) {
         return a.price - b.price;
