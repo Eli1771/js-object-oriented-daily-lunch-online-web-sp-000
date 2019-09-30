@@ -101,7 +101,7 @@ class Meal {
     store.meals.sort(
       function(a, b) {
         return a.price - b.price;
-      }
+      }.bind(this)
     );
   }
 }
